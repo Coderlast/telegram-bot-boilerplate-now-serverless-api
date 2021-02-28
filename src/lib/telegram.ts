@@ -19,7 +19,7 @@ function botUtils() {
 	bot.use(logger);
 
 	bot.start(ctx => {
-		return ctx.reply("This is a test bot.");
+		return ctx.reply("Assalomu alaykum yaxshimisiz");
 	});
 
 	bot.command("about", about()).on("text", greeting());
