@@ -71,7 +71,7 @@ export async function useWebhook(req: NowRequest, res: NowResponse) {
 		if (req.method === "POST") {
 			await bot.handleUpdate(req.body, res);
 		} else {
-			ok(res, "Listening to bot events...");
+			ok(res, "Bot ish ishlamoqda");
 		}
 	} catch (error) {
 		console.error(error);
